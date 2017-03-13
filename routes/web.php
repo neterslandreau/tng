@@ -38,4 +38,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('projects/{slug}/edit', 'ProjectsController@edit');
+Route::get('projects/create', 'ProjectsController@create');
+Route::post('/projects/{slug}/edit', 'ProjectsController@edit');
+Route::post('projects', 'ProjectsController@store');
+Route::get('projects/{slug}/delete', 'ProjectsController@destroy');
+
