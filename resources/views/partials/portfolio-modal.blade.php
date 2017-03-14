@@ -1,3 +1,6 @@
+<?php
+	// $project->description = nl2br($project->description);
+?>
 <div class="modal fade" id="{{ $project->slug }}" tabindex="-1" role="dialog" aria-labelledby="{{ $project->slug }}">
 
 	<div class="modal-dialog" role="document">
@@ -13,7 +16,9 @@
 
 			<div class="modal-body">
 
-				<?php echo \Markdown::convertToHtml($project->description); ?>
+
+					<pre>{{ $project->description }}</pre>
+
 
 				<a target="_blank" href="{{ $project->location }}">Visit {{ $project->name }}</a> (opens in new window)
 
@@ -26,5 +31,7 @@
 			</div>
 
 		</div>
+
 	</div>
+
 </div>

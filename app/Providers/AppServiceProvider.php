@@ -13,12 +13,7 @@ class AppServiceProvider extends ServiceProvider
 	 */
 	public function boot()
 	{
-		view()->composer('home', function($view) {
-			$projects = \App\Project::get();
-			$view->with(compact('projects'));
-		});
-
-		view()->composer('front', function($view) {
+		view()->composer(['home', 'front'], function($view) {
 			$projects = \App\Project::get();
 			$view->with(compact('projects'));
 		});

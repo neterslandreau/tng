@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
+
 @section ('content')
+<?php 
+	$project->description = htmlentities($project->description);
+	// dd($project->description);
+?>
 
 <div class="container">
 	<div class="col-sm-8">
