@@ -15,7 +15,14 @@ class AppServiceProvider extends ServiceProvider
 	{
 		view()->composer(['home', 'front'], function($view) {
 			$projects = \App\Project::get();
-			$view->with(compact('projects'));
+			$rows = [];
+			foreach ($projects as $project) {
+				preg_match_all('/(\n)/', $project->description, $matches);
+				$count = count($matches[0]) + 3;
+				$rows[$project->slug] = $count;
+
+			}
+			$view->with(compact('projects', 'rows'));
 		});
 	}
 

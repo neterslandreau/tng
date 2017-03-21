@@ -16,10 +16,10 @@
 
 			<div class="modal-body">
 
+				<p>Project Details</p>
 
-					<pre>{{ $project->description }}</pre>
-
-
+				<textarea class="col-md-12" style="resize: none;" rows="{{ $rows[$project->slug] }}">{{ $project->description }}</textarea>
+					
 				<a target="_blank" href="{{ $project->location }}">Visit {{ $project->name }}</a> (opens in new window)
 
 			</div>

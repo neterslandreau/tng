@@ -8,15 +8,11 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                <p>Whether you're a small business owner looking to attract clients, or an established technology company wishing to add to your team, we can help you accomplish your goals!</p>
             </div>
             <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="#" class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i> Download Theme
-                </a>
+                <p>The sites that we have showcased here only highlight some of our talents in a variety of environments.</p>
+                <p>We specialize in making the things that make your ideas work!</p>
             </div>
         </div>
     </div>

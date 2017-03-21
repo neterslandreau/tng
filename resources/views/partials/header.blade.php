@@ -6,7 +6,7 @@
 				<div class="intro-text">
 					<span class="name">The Neters Group</span>
 					<hr class="star-light">
-					<span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+					<span class="skills">Software Engineer - Web Developer - Graphic Artist</span>
 				</div>
 			</div>
 		</div>
