@@ -18,7 +18,7 @@
 
 				<p>Project Details</p>
 
-				<textarea class="col-md-12" style="resize: none;" rows="{{ $rows[$project->slug] }}">{{ $project->description }}</textarea>
+				<textarea class="col-md-12 project-details" rows="{{ $rows[$project->slug] }}">{{ $project->description }}</textarea>
 					
 				<a target="_blank" href="{{ $project->location }}">Visit {{ $project->name }}</a> (opens in new window)
 

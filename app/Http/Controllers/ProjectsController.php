@@ -75,7 +75,7 @@ class ProjectsController extends Controller
 		$project = Project::where(['slug' => $slug])->first();
 
 			if (request()->method() === 'POST') {
-				// dd(request('featured'));
+				// dd(request('location'));
 				 $this->validate(request(), [
 					'name' => 'required',
 					'location' => 'required',

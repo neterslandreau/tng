@@ -27,7 +27,7 @@
 
 			<div class="form-group">
 				<label for="name">Location</label>
-				<input type="text" class="form-control" id="location" name="location" value="{{ $project->name }}">
+				<input type="text" class="form-control" id="location" name="location" value="{{ $project->location }}">
 			</div>
 
 			<div class="form-group">
