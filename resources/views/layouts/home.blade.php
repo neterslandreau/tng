@@ -20,6 +20,7 @@
 			'csrfToken' => csrf_token(),
 		]) !!};
 	</script>
+	Host: {{ request()->server('REMOTE_ADDR') }}
 </head>
 <body id="">
 	<div id="app">
