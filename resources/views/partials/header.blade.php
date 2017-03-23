@@ -6,7 +6,7 @@
 				<div class="intro-text">
 					<span class="name">The Neters Group</span>
 					<hr class="star-light">
-					<span class="skills">Software Engineering - Web Application Development - Web Hosting</span>
+					<span class="skills">Software Engineering - Web Application Development - Web Hosting Services</span>
 				</div>
 			</div>
 		</div>

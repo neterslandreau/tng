@@ -1,9 +1,9 @@
-<section id="portfolio">
+<section class="success" id="portfolio">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>Portfolio</h2>
-				<hr class="star-primary">
+				<h2>Think-Knot.com: The Neters Network</h2>
+				<hr class="star-light">
 			</div>
 		</div>
 		<div class="row">

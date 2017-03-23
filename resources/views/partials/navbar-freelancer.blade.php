@@ -15,13 +15,13 @@
 					<a href="#app">admin</a>
 				</li>
 				<li class="page-scroll">
-					<a href="#portfolio">Portfolio</a>
+					<a href="#portfolio">The Neters Network</a>
 				</li>
 				<li class="page-scroll">
-					<a href="#about">About</a>
+					<a href="#about">About TNG</a>
 				</li>
 				<li class="page-scroll">
-					<a href="#contact">Contact</a>
+					<a href="#contact">Contact TNG</a>
 				</li>
 			</ul>
 		</div>
