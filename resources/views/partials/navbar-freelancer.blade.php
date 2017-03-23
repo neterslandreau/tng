@@ -11,9 +11,15 @@
 
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="#app">admin</a>
+
+			@if(in_array(request()->server('REMOTE_ADDR'), ['127.0.0.1', '174.48.153.117']))
+
+				<li class="page-scroll">
+					<a href="/home">admin</a>
 				</li>
+
+			@endif
+
 				<li class="page-scroll">
 					<a href="#portfolio">The Neters Network</a>
 				</li>
