@@ -21,7 +21,7 @@
 			@endif
 
 				<li class="page-scroll">
-					<a href="#portfolio">The Neters Network</a>
+					<a href="#portfolio">Think-Knot Network</a>
 				</li>
 				<li class="page-scroll">
 					<a href="#about">About TNG</a>
