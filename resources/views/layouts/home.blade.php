@@ -20,7 +20,6 @@
 			'csrfToken' => csrf_token(),
 		]) !!};
 	</script>
-	Host: {{ request()->server('REMOTE_ADDR') }}
 </head>
 <body id="">
 	<div id="app">
@@ -29,9 +28,9 @@
 
 		@include('partials.header')
 
-		@include('partials.about')
-
 		@include('partials.portfolio')
+
+		@include('partials.about')
 
 		@include('partials.contact')
 
