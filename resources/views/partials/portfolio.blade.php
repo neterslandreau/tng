@@ -20,9 +20,8 @@
 			<hr class="star-primary">
 			<div class="col-md-8 col-md-offset-2">
 			<h3 class="text-center">Hosting Details</h3>
-				<p>Nulla tincidunt velit ac leo ultrices, vel pulvinar lectus posuere.</p>
-				<p>Donec sollicitudin enim in odio fringilla, eu placerat ipsum lobortis.</p>
-				<p>Aenean malesuada nunc vel urna sagittis, vitae viverra dui ultricies.</p>
+				<p>Servers are hosted by Digital Ocean and managed by Laravel Forge with Envoyer.</p>
+				<p>Image storage and SMTP services are provided by Amazon Web Services.</p>
 <!-- 
 				<div class="row">
 
