@@ -14,4 +14,9 @@
         </div>
     </div>
 </div>
+@foreach ($projects as $project)
+
+    @include('partials.portfolio-modal')
+    
+@endforeach
 @endsection
