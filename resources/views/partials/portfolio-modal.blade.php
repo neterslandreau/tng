@@ -18,9 +18,23 @@
 
 				<p>Project Details</p>
 
-				<textarea class="col-md-12 project-details" rows="{{ $rows[$project->slug] }}">{{ $project->description }}</textarea>
-					
-				<a href="{{ $project->location }}">Visit {{ $project->name }}</a>
+				<div class="row">
+
+				<div class="col-lg-12 col-md-12 col-xs-12">
+					<textarea class="project-details" style="width: 100%;" rows="{{ $rows[$project->slug] }}">{{ $project->description }}</textarea>
+				</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="col-md-6 text-center">
+					<!-- <button class="btn btn-success" role="button"> -->
+						<a target="_blank" class="btn btn-success" href="{{ $project->location }}">Visit {{ $project->name }}</a>
+					<!-- </button> -->
+					</div>
+
+				</div>
 
 			</div>
 

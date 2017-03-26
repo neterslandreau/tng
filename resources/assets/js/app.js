@@ -7,8 +7,9 @@
 
 require('./bootstrap');
 require('./ie10-viewport-bug-workaround');
+require('./jqBootstrapValidation');
 require('./contact_me');
-// require('./freelancer');
+require('./freelancer');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
