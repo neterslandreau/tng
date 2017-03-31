@@ -11,6 +11,7 @@ $(function() {
             event.preventDefault();
             
             // get values from FORM
+            var token = window.Laravel.csrfToken.valueOf();
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
@@ -21,9 +22,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "/contact",
                 type: "POST",
                 data: {
+                    _token: token,
                     name: name,
                     phone: phone,
                     email: email,

@@ -2,15 +2,32 @@
 
 namespace App\Http\Controllers;
 
-use App\Project;;
+use App\Project;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
+use App\Mail\Contact;
 
 class ProjectsController extends Controller
 {
 
 	public function __construct()
 	{
-		$this->middleware('auth');
+		$this->middleware('auth')->except('contact');
+	}
+
+	public function contact(Request $request)
+	{
+		// dd(request('name'));
+		$name = request('name');
+		$email = request('email');
+		$phone = request('phone');
+		$msg = request('message');
+		$contact = new Contact($name, $email, $phone, $msg);
+		// dd($contact);
+
+		Mail::to('neterslandreau@gmail.com')
+			->send($contact);
+
 	}
 	/**
 	 * Display a listing of the resource.

@@ -35,6 +35,7 @@ Route::get('/', function () {
     return view('front');
 });
 
+Route::post('/contact', 'ProjectsController@contact');
 
 Auth::routes();
 
