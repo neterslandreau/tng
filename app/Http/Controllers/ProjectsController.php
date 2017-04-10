@@ -57,9 +57,11 @@ class ProjectsController extends Controller
 	 */
 	public function store(Request $request)
 	{
+		// dd(request('icon'));
 		$this->validate(request(), [
 			'name' => 'required',
 			'location' => 'required',
+			'icon' => 'required',
 			'description' => 'required',
 
 		]);
@@ -67,6 +69,7 @@ class ProjectsController extends Controller
 		$type = Project::create([
 			'name' => request('name'),
 			'location' => request('location'),
+			'icon' => request('icon'),
 			'description' => request('description'),
 		]);
 
