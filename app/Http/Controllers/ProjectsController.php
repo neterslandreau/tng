@@ -105,12 +105,14 @@ class ProjectsController extends Controller
 					'name' => 'required',
 					'location' => 'required',
 					'description' => 'required',
+					'icon' => 'required',
 
 				]);
 				$project = Project::where('slug', $slug)->first();
 				$project->name = request('name');
 				$project->location = request('location');
 				$project->description = request('description');
+				$project->icon = request('icon');
 				$project->save();
 				session()->flash('message', 'The project was successfully editted.');
 				return redirect()->home();
