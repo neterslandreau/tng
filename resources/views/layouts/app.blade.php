@@ -14,6 +14,7 @@
 	<link href="/css/app.css" rel="stylesheet">
 
 	<!-- Scripts -->
+	<script src="//rawgit.com/saribe/eModal/master/dist/eModal.min.js"></script>
 	<script>
 		window.Laravel = {{ json_encode([
 			'csrfToken' => csrf_token(),

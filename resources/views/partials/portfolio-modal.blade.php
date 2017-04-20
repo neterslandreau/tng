@@ -28,7 +28,7 @@
 
 				<div class="row">
 
-					<div class="col-md-6 text-center">
+					<div class="col-md-6">
 					<!-- <button class="btn btn-success" role="button"> -->
 						<a target="_blank" class="btn btn-success" href="{{ $project->location }}">Visit {{ $project->name }}</a>
 					<!-- </button> -->

@@ -21,6 +21,9 @@
 			@endif
 
 				<li class="page-scroll">
+					<a data-toggle="modal" data-target="#resume">Resume</a>
+				</li>
+				<li class="page-scroll">
 					<a href="#portfolio">Think-Knot Network</a>
 				</li>
 				<li class="page-scroll">
@@ -35,3 +38,5 @@
 	</div>
 
 </nav>
+
+@include('partials.resume-modal')
