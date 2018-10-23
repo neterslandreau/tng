@@ -15,7 +15,7 @@
 			<div class="modal-body">
 
 			<div style="text-align:center;">
-				<iframe src="/storage/resume.pdf" style="width:500px;height:500px;" frameborder="0"></iframe>
+				<iframe src="/storage/resume.pdf#zoom=75" style="width:500px;height:500px;" frameborder="0"></iframe>
 			</div>
 
 			</div>
